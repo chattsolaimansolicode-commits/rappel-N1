@@ -1,0 +1,16 @@
+interface,Nom,Signification,type,Obligatoire,Calculee
+Article,titre_article,Titre affiché pour identifier l'article,text,Oui,Non
+Article,contenu,Texte détaillé de l'article,text,Oui,Non
+Article,image_article,Image associée à l'article,text,Oui,Non
+Article,date_publication,Date à laquelle l'article est publié,date,Oui,Non
+Article,date_creation,Date de création de l'article,date,Oui,Non
+Article,duree_lecture,Durée estimée pour lire l'article,int,Non,Oui
+Article,statut_article,État actuel de l'article,enum,Oui,Non
+Category,nom_categorie,Nom permettant de classer les articles,text,Oui,Non
+Category,icone_categorie,Élément visuel représentant la catégorie,text,Non,Non
+Category,couleur_categorie,Couleur utilisée pour identifier la catégorie,text,Non,Non
+User,nom_auteur,Nom complet de l'auteur,text,Oui,Non
+User,photo_auteur,Photo utilisée pour représenter l'auteur,varchar,Non,Non
+User,email_auteur,Adresse email de l'auteur,varchar/email,Oui,Non
+User,mot_de_passe,Mot de passe associé au compte,varchar,Oui,Non
+User,description_auteur,Présentation personnelle de l'auteur,text,Non,Non
